@@ -4,10 +4,17 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-
-<title>Insert title here</title>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+<title>test</title>
 </head>
 <body>
+
+<title>Insert title here 不要再改啦 </title>
+</head>
+<body>
+>>>>>>> branch 'master' of https://github.com/EEIT89Team4/RemoteRepository1027.git
 <%@ page import="model.dao.*" %>
 <%@ page import="model.*" %>
 <%@ page import="java.util.*" %>
@@ -35,7 +42,7 @@ ResultSet rset = stmt.executeQuery("select * from dept");
 while(rset.next()) {
 	String col1 = rset.getString(1);
 	String col2 = rset.getString(2);
-	out.println("<h1>"+col1+":"+col2+"</h1>");
+	out.println("<h1>"+col1+":"+col2+"</h1>"+"12");	
 }
 %>
 </body>
