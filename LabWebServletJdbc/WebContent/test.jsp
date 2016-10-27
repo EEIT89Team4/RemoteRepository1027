@@ -5,12 +5,13 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <<<<<<< HEAD
+=======
+<<<<<<< HEAD
 <title>test</title>
 </head>
 <body>
 
-
-<title>Insert title here ddddddd </title>
+<title>Insert title here 不要再改啦 </title>
 </head>
 <body>
 >>>>>>> branch 'master' of https://github.com/EEIT89Team4/RemoteRepository1027.git
@@ -41,7 +42,11 @@ ResultSet rset = stmt.executeQuery("select * from dept");
 while(rset.next()) {
 	String col1 = rset.getString(1);
 	String col2 = rset.getString(2);
-	out.println("<h1>"+col1+":"+col2+"</h1>"+"1002");
+<<<<<<< HEAD
+	out.println("<h1>"+col1+":"+col2+"</h1>"+"12");
+=======
+	out.println("<h1>"+col1+":"+col2+"</h1>"+"12");	
+>>>>>>> branch 'master' of https://github.com/EEIT89Team4/RemoteRepository1027.git
 }
 %>
 </body>
