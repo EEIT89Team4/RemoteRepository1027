@@ -4,10 +4,10 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
 <title>Insert title here</title>
 </head>
 <body>
-
 <%@ page import="model.dao.*" %>
 <%@ page import="model.*" %>
 <%@ page import="java.util.*" %>
