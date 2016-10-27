@@ -32,6 +32,7 @@ DataSource dataSource = (DataSource) ctx.lookup("java:comp/env/jdbc/xxx");
 Connection conn = dataSource.getConnection();
 Statement stmt = conn.createStatement();
 ResultSet rset = stmt.executeQuery("select * from dept");
+String aa="aa";
 while(rset.next()) {
 	String col1 = rset.getString(1);
 	String col2 = rset.getString(2);
