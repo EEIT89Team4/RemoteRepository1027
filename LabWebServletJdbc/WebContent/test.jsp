@@ -41,7 +41,7 @@ ResultSet rset = stmt.executeQuery("select * from dept");
 while(rset.next()) {
 	String col1 = rset.getString(1);
 	String col2 = rset.getString(2);
-	out.println("<h1>"+col1+":"+col2+"</h1>"+"9");
+	out.println("<h1>"+col1+":"+col2+"</h1>"+"12");
 }
 %>
 </body>
