@@ -4,9 +4,16 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<<<<<<< HEAD
+<title>test</title>
+</head>
+<body>
+
+
 <title>Insert title here</title>
 </head>
 <body>
+>>>>>>> branch 'master' of https://github.com/EEIT89Team4/RemoteRepository1027.git
 <%@ page import="model.dao.*" %>
 <%@ page import="model.*" %>
 <%@ page import="java.util.*" %>
